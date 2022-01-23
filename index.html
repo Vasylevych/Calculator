@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="index.js"></script>
+   
+</head>
+<body>
+    
+
+    <div class="root" id="root">
+        <div class="inputContainer"> 
+            <div id="resultInput"> 
+                <input value="0"  id="resultText" disabled> </input> 
+            </div>
+        </div>
+        <div class="operatorContainer">
+            <div class="operatorRow">
+                <button class="operator" id="AC" data-event-operation="ac" >AC</button>
+                <button class="operator" id="plusAndMinus" data-event-operation="+/-">+/-</button>
+                <button class="operator" id="interest" data-event-operation="%">%</button>
+                <button class="operator anyColor operation" data-event-operation="/">/</button>
+            </div>
+            <div class="operatorRow">
+                <button class="operator number" data-event-number="7">7</button>
+                <button class="operator number" id="eight" data-event-number="8">8</button>
+                <button class="operator number" data-event-number="9">9</button>
+                <button class="operator anyColor operation" data-event-operation="*">*</button>
+            </div>
+            <div class="operatorRow">
+                <button class="operator number " data-event-number="4">4</button>
+                <button class="operator number" data-event-number="5">5</button>
+                <button class="operator number" data-event-number="6">6</button>
+                <button class="operator anyColor operation" data-event-operation="-">-</button>
+            </div>
+            <div class="operatorRow">
+                <button class="operator number" data-event-number="1">1</button>
+                <button class="operator number" data-event-number="2">2</button>
+                <button class="operator number" data-event-number="3">3</button>
+                <button class="operator anyColor operation" data-event-operation="+">+</button>
+            </div>
+            <div class="operatorRow">
+                <button class="operator longOperator radius2 number" data-event-number="0">0</button>
+                <button class="operator" id="point" data-event-number=".">,</button>
+                <button class="operator anyColor radius operation" id="equals" data-event-operation="=">=</button>
+            </div>
+        </div>
+    </div>
+
+
+
+ 
+</body>
+</html>
